@@ -346,7 +346,7 @@ window.onload=function(){
 				      //FF/ie
 			         }
 				document.documentElement.scrollTop=1;
-				if (document.documentElement.scrollTop=1) {
+				if (document.documentElement.scrollTop==1) {
 					var scrollobj=document.documentElement;
 				}else{
 					var scrollobj=document.body;
